@@ -23,3 +23,9 @@ const doMultipleTimes = (action, numTimes) => {
     console.log(action());
   }
 };
+
+
+
+// use doMultipleTimes with an anonymous function. for a challenge, try using
+// the enclosing scope to hold a value between calls (suggestion: calculate
+// subsequent powers of 2 on each call, starting from 2^0 = 1)
